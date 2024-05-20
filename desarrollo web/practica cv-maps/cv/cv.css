@@ -1,0 +1,231 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.encabezado {
+    background-color: #C9D6E8;
+    margin-left: 45px;
+    margin-right: 45px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    width: 1425px;
+}
+
+h1 {
+    color: #213D62;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 40px;
+    margin-left: 400px;
+
+}
+
+h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5em;
+    color: #213D62;
+}
+
+.contenedor-head {
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+    width: 1200px;
+}
+
+.foto-perfil {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.datos-personales {
+    flex-grow: 1;
+    padding: 1em;
+    border-radius: 10px;
+    display: flex;
+    text-align: justify;
+    margin-top: 70px;  
+    margin-left: -255px;  
+}
+
+.subtitulo1 {
+    font-size: 1.2em;
+    margin-bottom: 150px;
+    margin-left: 40px;
+}
+
+span {
+    flex-direction: column;
+    gap: 1px;
+}
+
+.email, .tel, .persona, .linkedin {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-top: -8px;
+}
+
+.contenedor-tecnicas ul li {
+    margin-bottom: 10px;
+}
+
+.contenedor-ObProf, 
+.contenedor-exp-lab, 
+.contenedor-edu, 
+.contenedor-tecnicas, 
+.contenedor-proyectos, 
+.contenedor-infoAdic, 
+.contenedor-OIdiomas, 
+.contenedor-Hblandas {
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 900px; 
+}
+
+.rectangulo { 
+    width: 500px;
+    height: 1050px;
+    background: #ECF4FF;
+    position: absolute;
+    margin-left: 45px;
+}
+
+.contenedor-exp-lab {
+    color: black;
+    width: 800px;
+    position: absolute;
+    top: 420px;
+    left: 600px;
+}
+
+.contenedor-edu {
+    margin-top: -20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    width: 400px;
+    position: relative;
+    top: 40px;
+    margin-left: 100px;
+}
+
+.contenedor-tecnicas {
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    width: 800px;
+    position: absolute;
+    top: 850px;
+    left: 600px;
+}
+
+.contenedor-proyectos {
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    width: 800px; 
+    position: absolute;
+    top: 1155px;
+    left: 600px;
+}
+
+.contenedor-infoAdic {
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    width: 400px;
+    position: absolute;
+    top: 1150px;
+    left: 110px;
+}
+
+.contenedor-OIdiomas {
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    width: 200px;
+    position: absolute;
+    top: 670px;
+    left: 110px;
+}
+
+.contenedor-Hblandas {
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    width: 400px; 
+    position: absolute;
+    top: 850px;
+    left: 110px;
+}
+
+.contenedor-ObProf {
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    top: 100px;
+    position: absolute;
+    width: 500px;
+    left: 890px;
+    text-align: justify;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffffff; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #C9D6E8; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #aec3e0; 
+}
+
+hr {
+    width: 0.2vw;
+    background-color: #213D62;
+    height: 160px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 690px;
+    bottom: 15%;
+}
+
+.btn-flotante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0d57b9;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icono-descargar {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.btn-flotante:hover {
+    background-color: #1a2f50;
+}
+

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ee">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cv.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <head>
+        <div class="encabezado">
+            <h1>Eduardo Alberto Flores Herrera</h1>
+            <div class="contenedor-head">
+                <img src="imagen5.bmp" alt="foto-perfil" class="foto-perfil">
+                <div class="subtitulo1"><h3>Datos Personales</h3></div>
+                <div class="datos-personales">
+                    <span>
+                        <strong><img src="persona.png" alt="icono persona" class="persona">Nombre: </strong>Eduardo Alberto Flores Herrera <br><br>
+                        <strong><img src="tel.png" alt="icono telefono" class="tel">Teléfono: </strong>(998) 265 7838 <br><br>
+                        <strong><img src="email.png" alt="icono correo" class="email">Email: </strong>eduardoflores121298@gmail.com <br><br>
+                        <strong><img src="linkedin.png" alt="icono linkedin" class="linkedin">LinkedIn: </strong>linkedin.com/in/eduardo-flores-475bb4210 <br>
+                    </span>
+                </div><hr>
+            </div>
+        </div>
+    </head>
+
+    <div class="contenedor-ObProf">
+        <h3>Objetivo profesional</h3>
+        <p>Soy un desarrollador en formación con experiencia en HTML, CSS, JavaScript, C#, y Java. 
+            Busco una oportunidad para aplicar y expandir mis conocimientos en el desarrollo de software y la inteligencia artificial, contribuyendo al crecimiento de una empresa innovadora mientras continúo mi desarrollo profesional.<br>
+            <br>Alta capacidad de aprendizaje y determinación en el mundo de la programación y la inteligencia artificial.</p>
+    </div>
+
+    <div class="rectangulo"></div>
+
+    <div class="contenedor-exp-lab">
+        <h3>Experiencia Laboral</h3>
+        <p>Becario en Leoni Wiring Systems <br>2021 - 2022 <br></p>
+        <ul>
+            <li>Administrar una plantilla de trabajadores en un departamento con un nuevo proyecto de arneses automotrices enfocado a BMW.</li>
+            <li>Gestionar y mejorar los procesos de producción en el armado de una parte del arnés para que llegue al departamento de calidad.</li>
+            <li>Herramientas utilizadas: Excel Avanzado, 5S. </li>
+            <li>Metodologías: Lean Manufacturing</li>
+          </ul>
+
+          <p>Seguros Atlas <br>7 meses<br></p>
+          <ul>
+            <li>Encargado del almacén de siniestros.</li>
+            <li>Servicio al cliente (proveedores).</li>
+          </ul>
+
+          <p>Agente de Seguros y Fianzas <br>(Actual)<br></p>
+    </div>
+    <div class="contenedor-edu">
+        <h3>Educación y Formación</h3>
+        <ul>
+            <li>Ingeniería en Desarrollo y Gestión de Software (Cursando) <br>Universidad Tecnológica Metropolitana <br>2023 - Presente</li><br>
+            <li>Ingeniería Industrial en Producción <br>Universidad Latinoamericana <br>2017 - 2021</li>
+          </ul>
+    </div>
+
+    <div class="contenedor-tecnicas">
+        <h3>Habilidades técnicas</h3>
+        <ul>
+            <li>Lenguajes de Programación: C#, HTML, CSS, JavaScript, Java, POO (Programación Orientada a Objetos)</li>
+            <li>Frameworks y Librerías: Spring Boot, Maven, Bootstrap, Swiper, .NET Framework</li>
+            <li>Herramientas y Tecnologías: Git, Docker, AWS, Azure, SQL Server, Visual Studio Code, IntelliJ IDEA, Figma</li>
+            <li>Desarrollo Web: HTML, CSS, JavaScript</li>
+            <li>Metodologías: Scrum, Agile, Lean Manufacturing</li>
+            <li>Administración de Base de Datos: SQL Server</li>
+            <li>Modelo MVC: Implementación en diversos proyectos</li>
+            <li>Diseño de la Interfaz del Usuario: Experiencia con Figma y desarrollo de interfaces amigables y funcionales</li>
+          </ul>
+    </div>
+
+    <div class="contenedor-proyectos">
+        <h3>Proyectos</h3>
+          <ul>
+            <li>Sistema de ATM: Desarrollé un sistema de cajero automático (ATM) incorporando API usando Java, Spring Boot y Maven.</li>
+            <li>Banco de sangre: Desarrollé un sistema de gestión de banco de sangre utilizando programación de consola.</li>
+            <li>Sistema de Estacionamiento: Desarrollé un sistema de gestión de estacionamiento utilizando programación de consola.</li>
+            <li>Aplicación para Agentes de Seguros: Actualmente desarrollando una aplicación para agentes de seguros que permite la gestión de clientes y pólizas de seguro.</li><br>
+          </ul>
+    </div>
+
+    <div class="contenedor-infoAdic">
+        <h3>Información adicional</h3>
+        <ul>
+            <li>Curso de Google Cloud (En curso)</li><br>
+            <li>Diplomado de Seguros Conducef</li><br>
+            <li>Refrigeración de Equipos Industriales y Domésticos</li><br>
+            <li>Electricidad (corriente Alterna-Directa)</li><br>
+            <li>Embobinados Industriales</li><br>
+          </ul>
+    </div>
+
+    <div class="contenedor-OIdiomas">
+        <h3>Idiomas</h3>
+        <ul>
+            <li>Español: Nativo </li><br>
+            <li>Inglés: A2-B1</li>
+          </ul>
+    </div>
+
+    <div class="contenedor-Hblandas">
+        <h3>Habilidades blandas</h3>
+        <ul>
+            <li>Liderazgo</li><br>
+            <li>Trabajo en equipo</li><br>
+            <li>Comunicación</li><br>
+            <li>Asertividad</li><br>
+            <li>Resolución de problemas</li><br>
+            <li>Adaptabilidad</li><br>
+          </ul>
+    </div>
+
+    <button id="downloadBtn" class="btn-flotante">
+        <img src="d1.png" alt="Descargar" class="icono-descargar"> Descargar
+    </button>
+
+    <script>
+        document.getElementById('downloadBtn').addEventListener('click', function() {
+            const button = document.getElementById('downloadBtn');
+            button.style.display = 'none';
+
+            const { jsPDF } = window.jspdf;
+        
+            html2canvas(document.body).then(canvas => {
+                const imgData = canvas.toDataURL('image/png');
+                const pdf = new jsPDF('p', 'mm', 'a4');
+                const pdfWidth = pdf.internal.pageSize.getWidth();
+                const pdfHeight = pdf.internal.pageSize.getHeight();
+                
+                pdf.addImage(imgData, 'PNG', 0, 0, pdfWidth, pdfHeight);
+                pdf.save('CurriculumVitae.pdf');
+                
+                button.style.display = 'block';
+            });
+        });      
+    </script>
+
+</body>
+</html>
